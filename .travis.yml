@@ -9,4 +9,4 @@ before_install:
 
 
 script:
- - docker run mohammad/docker-react npm run test -- --coverage   
+ - docker run mohammad/docker-react npm run test -- --coverage --watchAll=false 
